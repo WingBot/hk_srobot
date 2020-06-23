@@ -9,7 +9,9 @@
 
 #include "hunter_base/hunter_base.hpp"
 
+
 //using namespace westonrobot;
+//using namespace wescore;
 using namespace wescore;
 int main(int argc, char **argv) {
   HunterBase hunter;

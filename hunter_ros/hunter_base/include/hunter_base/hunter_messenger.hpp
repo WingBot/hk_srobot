@@ -20,15 +20,17 @@
 #include <tf2_ros/transform_broadcaster.h>
 
 //#include "wrp_sdk/platforms/hunter/hunter_base.hpp"
+//
+
 #include "hunter_base/hunter_base.hpp"
-//#include "wrp_sdk/hunter_sdk/hunter_base/hunter_base.hpp"
-//#include "/home/ars-lab/ws_westonrobot/src/wrp_sdk/src/hunter_sdk/hunter_base/include/hunter_base/hunter_base.hpp"
+
 #include "ascent/Ascent.h"
 #include "ascent/Utility.h"
 #include "hunter_base/bicycle_model.hpp"
 #include "hunter_base/hunter_params.hpp"
 // #include "hunter_base/system_propagator.hpp"
 using namespace wescore;
+//using namespace wescore;
 namespace westonrobot {
 template <typename SystemModel>
 class SystemPropagator {
